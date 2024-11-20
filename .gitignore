@@ -1,0 +1,7 @@
+# -- dotgit @wrongmodels
+repo-manifest/.git
+
+## (git)-[master] % ls --recursive .git|wc
+###  96      74    1147
+
+##### README

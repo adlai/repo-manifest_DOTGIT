@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <!-- Remote repositories definition -->
+  <remote name="github" fetch="https://github.com" />
+  <remote name="fixnum" fetch=" " />
+  <default revision="master" remote="fixnum" sync-j="4" />
+
+  <!-- empty project for comparison and cloning -->
+  <project name="boilerplatyvore" />
+
+  <!-- webapp -->
+  <project name="farmer" />
+
+  <!-- meta-projects -->
+  <project name="infrastructure" revision="main" />
+  <project name="docs" revision="master" />
+
+  <!-- local build -->
+  <!-- this did not work, and had to be copied manually... -->
+  <!-- <copyfile src="infrastructure/local.yaml" dest="local.yaml" /> -->
+
+  <!-- wasting time? -->
+  <!-- figure out why and how this special case is counterproductive! -->
+  <!-- <project name="repo-manifest" /> -->
+</manifest>
