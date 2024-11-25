@@ -31,12 +31,13 @@ other systems, it might be named `git-repo`. The project homepage is:
 https://gerrit.googlesource.com/git-repo/
 
 DO NOT BOTHER MY NCO, HE'S WAITING FOR THE FUZZER TO FINISH COMPLINIG
-
+```
 +++ b/README.md
 @@ -1,2 +1,33 @@
 -# repo-manifest_DOTGIT
 -LEARN MORE ABOUT IGNORING LIFES
 +# Repository manifest, composed by SOME-OLD-THIEF
+```
 
 
 
@@ -70,10 +71,10 @@ DO NOT BOTHER MY NCO, HE'S WAITING FOR THE FUZZER TO FINISH COMPLINIG
 
 
 
-
-
+```
 src/IDJIT (git)-[main] % git diff --cached --stat
  .gitignore               |  7 +++++++
  README.md                | 41 +++++++++++++++++++++++++++++++++++++++--
  rep_fest.dat/default.xml | 25 +++++++++++++++++++++++++
  3 files changed, 71 insertions(+), 2 deletions(-)
+```
