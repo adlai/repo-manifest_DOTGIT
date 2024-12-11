@@ -2,22 +2,22 @@
 <manifest>
   <!-- Remote repositories definition -->
   <remote name="github" fetch="https://github.com" />
-  <remote name="fixnum" fetch=" " />
+  <remote name="fixnum" fetch="vanguard" />
   <default revision="master" remote="fixnum" sync-j="4" />
 
   <!-- empty project for comparison and cloning -->
   <project name="boilerplatyvore" />
 
   <!-- webapp -->
-  <project name="farmer" />
+  <project name="gpt4zombies" />
 
-  <!-- meta-projects -->
-  <project name="infrastructure" revision="main" />
-  <project name="docs" revision="master" />
+  <!-- ancillary projects -->
+  <project name="public_static_void" revision="main" />
+  <project name="string_remix" revision="master" />
 
   <!-- local build -->
   <!-- this did not work, and had to be copied manually... -->
-  <!-- <copyfile src="infrastructure/local.yaml" dest="local.yaml" /> -->
+  <!-- <copyfile src="infra/struct/yaml.enum" dest="local.yaml" /> -->
 
   <!-- wasting time? -->
   <!-- figure out why and how this special case is counterproductive! -->
