@@ -1,0 +1,15 @@
+History item: 0
+Mark set [6 times]
+Entering debugger...
+( is undefined [6 times]
+Quit
+Back to top level
+Quit
+Entering debugger...
+Back to top level
+Scan error: "Unbalanced parentheses", 436329, 1 [2 times]
+Mark set [3 times]
+error in process filter: if: Reply to canceled synchronous eval request tag=slime-result-3860-227 sexp=(swank:completions "" '"SCALPL.QD")
+error in process filter: Reply to canceled synchronous eval request tag=slime-result-3860-227 sexp=(swank:completions "" '"SCALPL.QD")
+Error running timer ‘slime-process-available-input’: (error "Reply to canceled synchronous eval request tag=slime-result-3861-228 sexp=(swank:completions \"finish\" '\"SCALPL.QD\")")
+Mark set
